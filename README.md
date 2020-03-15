@@ -1,13 +1,16 @@
 # Google Ttranslate_v3 Easy Module
  A module of official google translate_v3 api for Python
 This module wrote for official Google Cloud API for Python. 
-## Before using this module you must follow this three step;
+## Before using this module you must follow this four step;
 1. You should be have a Google Cloud account and one project.
 2. Your cloud project must be include Cloud Translation API!.
 3. You must be did this arrangements for your pc https://cloud.google.com/docs/authentication/getting-started
-
+4. Clone repo, install requrements.txt and copy google_translate_api.py to your code folder.
 An example using;
-
+- Import google_translate_api.py
+```python
+from google_translate_api import TransLater
+```
 - We need firstly instance of Translater object with project name and location.
 - You can find this parameters in the google cloud console
 ```python
