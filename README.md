@@ -10,12 +10,16 @@ An example using;
 
 - We need firstly instance of Translater object with project name and location.
 - You can find this parameters in the google cloud console
+```python
 translate = TransLater('**project-name-id**', '**location**') 
-
+```
 - We must target and source language. This method checks languages for any exception.
+```python
 translate.set_target_language("tr") #Turkish
 translate.set_source_language("en") #English
-
+```
 - translate_text method takes a list and returns a list.
+```python
 response = translate.translate_text(["Hello World!"])
 print(response)
+```
