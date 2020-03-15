@@ -1,6 +1,6 @@
 from distutils.core import setup
 from version import __version__ # version.py dosyasindan __version__ degiskenini al
-url = "https://github.com/Akaame/Intervalt" # github linki
+url = "https://github.com/yasinerduran/Google_Ttranslate_v3_Easy_Module" # github linki
 version = __version__
 
 setup(name="Google_Ttranslate_v3_Easy_Module",  # Proje ismi
