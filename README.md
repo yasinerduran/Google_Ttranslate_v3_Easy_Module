@@ -25,4 +25,5 @@ translate.set_source_language("en") #English
 ```python
 response = translate.translate_text(["Hello World!"])
 print(response)
+#['Merhaba Dünya!']
 ```
